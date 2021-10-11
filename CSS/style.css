@@ -325,3 +325,8 @@ form label {
     .form-sm-col {
         padding: 0px 20px 50px 20px;
     }
+}
+
+#st__img {
+    width: 15%;
+}
