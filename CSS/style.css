@@ -322,4 +322,6 @@ form label {
     .bt {
         width: 100%;
     }
-}
+    .form-sm-col {
+        padding: 0px 20px 50px 20px;
+    }
