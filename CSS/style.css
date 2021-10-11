@@ -1,0 +1,325 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.3.6,
+* Autoprefixer: v10.3.1
+* Browsers: last 4 version
+*/
+
+@font-face {
+    font-family: Poppins__Bold;
+    src: url('../Poppins/Poppins-Bold.ttf');
+}
+
+@font-face {
+    font-family: Poppins__ExtraBold;
+    src: url('../Poppins/Poppins-ExtraBold.ttf');
+}
+
+@font-face {
+    font-family: Poppins__Medium;
+    src: url('../Poppins/Poppins-Medium.ttf');
+}
+
+@font-face {
+    font-family: Poppins__Regular;
+    src: url('../Poppins/Poppins-Regular.ttf');
+}
+
+@font-face {
+    font-family: Poppins__SemiBold;
+    src: url('../Poppins/Poppins-SemiBold.ttf');
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body, html {
+    overflow-x: hidden;
+    background-color: #05021f;
+}
+
+.bg-row {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.form-sm-col {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -ms-flex-preferred-size: 100%;
+    flex-basis: 100%;
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    background-color: #05021f;
+    z-index: 9999;
+}
+
+.neon-img-col img {
+    width: 100%;
+}
+
+.neon-lg-col {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -ms-flex-preferred-size: 100%;
+    flex-basis: 100%;
+    -webkit-box-flex: 2;
+    -ms-flex: 2;
+    flex: 2
+}
+
+@media screen and (max-width: 1080px) {
+    .bg-row {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+    }
+}
+
+/* ******* */
+
+.neon-img-col {
+    position: relative;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}
+
+.gr-un-one {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    right: -44%;
+}
+
+.tx-pr {
+    position: absolute;
+    left: 17%;
+    bottom: 0;
+    top: 25%;
+    text-align: center;
+}
+
+.tx-pr h3 {
+    font-family: 'Poppins__Medium';
+    color: #fff;
+    font-size: calc(18pt + 0.15vw);
+    line-height: 1.6195;
+    letter-spacing: 0.03em;
+}
+
+@media screen and (max-width: 1080px) {
+    .tx-pr h3 {
+        font-size: calc(18pt + 0.15vw);
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .tx-pr h3 {
+        font-size: calc(14pt + 0.15vw);
+    }
+}
+
+@media screen and (max-width: 640px) {
+    .tx-pr h3 {
+        font-size: calc(10pt + 0.15vw);
+    }
+}
+
+@media screen and (max-width: 539px) {
+    .tx-pr h3 {
+        font-size: calc(6pt + 0.15vw);
+    }
+}
+
+.tx-pr h2 {
+    color: #9ce859;
+    font-size: calc(22pt + 0.15vw);
+    line-height: 1.1195;
+    letter-spacing: 0.03em;
+    background: -o-linear-gradient(right, #f9fa42, #3099ac);
+    background: -webkit-gradient(linear, left top, right top, from(#f9fa42), to(#3099ac));
+    background: -o-linear-gradient(left, #f9fa42, #3099ac);
+    background: linear-gradient(to right, #f9fa42, #3099ac);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.tx-pr h2 span:nth-child(1) {
+    text-shadow: 1px -10px 9px rgb(101 232 108), 3px 3px 5px rgb(101 232 108);
+}
+
+.tx-pr h2 span:nth-child(2) {
+    text-shadow: 1px -10px 9px #3099ac, 3px 3px 5px #3099ac;
+}
+
+@media screen and (max-width: 1080px) {
+    .tx-pr h2 {
+        font-size: calc(20pt + 0.15vw);
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .tx-pr h2 {
+        font-size: calc(15pt + 0.15vw);
+    }
+}
+
+@media screen and (max-width: 640px) {
+    .tx-pr h2 {
+        font-size: calc(12pt + 0.15vw);
+    }
+}
+
+@media screen and (max-width: 539px) {
+    .tx-pr h2 {
+        font-size: calc(6pt + 0.15vw);
+    }
+}
+
+.icon img {
+    width: 80%;
+}
+
+.icon {
+    margin: 50px auto;
+}
+
+/* ********* */
+
+form {
+    padding: 0px 30px 0px 50px;
+}
+
+input {
+    width: 70%;
+    padding: 10px 20px;
+    outline: none;
+    border: none;
+}
+
+.bt {
+    border: none;
+    width: 70%;
+    padding: 13px;
+    margin: 25px 0px 0px 0px;
+    background-color: #ff00ff;
+    color: #fff;
+    font-family: 'Poppins__Regular';
+    font-size: calc(16pt + 0.15vw);
+}
+
+input[type="text"] {
+    font-size: calc(16pt + 0.15vw);
+    font-family: 'Poppins__Regular';
+}
+
+input::-webkit-input-placeholder {
+    color: #57524a;
+    /* Firefox */
+}
+
+input::-moz-placeholder {
+    color: #57524a;
+    /* Firefox */
+}
+
+input:-ms-input-placeholder {
+    color: #57524a;
+    /* Firefox */
+}
+
+input::-ms-input-placeholder {
+    color: #57524a;
+    /* Firefox */
+}
+
+input::placeholder {
+    color: #57524a;
+    /* Firefox */
+}
+
+input:-ms-input-placeholder {
+    /* Internet Explorer 10-11 */
+    color: #57524a;
+}
+
+input::-ms-input-placeholder {
+    /* Microsoft Edge */
+    color: #57524a;
+}
+
+form p {
+    color: #f5fd4a;
+    margin: 30px 0px 0px 100px;
+    font-family: 'Poppins__Regular';
+    font-size: calc(11pt + 0.15vw);
+}
+
+form label {
+    color: #ff00ff;
+    font-family: 'Poppins__Regular';
+    font-size: calc(13pt + 0.15vw);
+}
+
+.fas {
+    -webkit-transform: translateY(2px);
+    -ms-transform: translateY(2px);
+    transform: translateY(2px);
+}
+
+@media screen and (max-width: 1080px) {
+    form {
+        margin: auto;
+        padding: 0px 0px 0px 0px;
+    }
+    form p {
+        margin: 30px 0px 0px 180px;
+    }
+    input {
+        width: 150%;
+    }
+    .bt {
+        width: 150%;
+    }
+    .form-sm-col {
+        padding-bottom: 50px;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    form p {
+        margin: 30px 0px 0px 80px;
+    }
+    input {
+        width: 100%;
+    }
+    .bt {
+        width: 100%;
+    }
+}
